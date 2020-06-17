@@ -2,7 +2,7 @@
 
 ## Summary
 In this repository, the goal was to use Deep Q-Learning in order to have an agent learn to play Ms. Pac-Man using screen images. As such,
-a convolution neural network was used to analyze images of the screen that were preprocessed and stitched together.The environment was 
+a convolution neural network was used to analyze images of the screen that were preprocessed and stitched together. The environment was 
 sourced from OpenAI gym. The agent was trained and the network weights were saved at interval in order to preserve the network and allow
 for training over multiple days. Training was conducted over a series of days using Google Colab free GPU. Only small incremental changes
 were observed during this brief training period, however there was a noticeable difference in performance (~280 to ~450), with the agent 
